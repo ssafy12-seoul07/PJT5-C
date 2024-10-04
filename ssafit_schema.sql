@@ -1,3 +1,9 @@
+DROP database IF EXISTS ssafit_db;
+
+CREATE database IF NOT EXISTS ssafit_db;
+
+USE ssafit_db;
+
 CREATE TABLE `User` (
     `user_id` INT NOT NULL AUTO_INCREMENT COMMENT 'PK',
     `username` VARCHAR(50) NOT NULL,
